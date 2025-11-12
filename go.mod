@@ -1,4 +1,4 @@
-module github.com/223124/goforest
+module github.com/2231243/goforest
 
 go 1.24.0
 
