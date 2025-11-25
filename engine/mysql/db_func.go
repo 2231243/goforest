@@ -34,7 +34,7 @@ func SetLocal(local string) Setting {
 	}
 }
 
-func SetQueryValue(key string, value string) {
+func SetQueryValue(key string, value string) Setting {
 	return func(source string) string {
 		return settingString(source, key, value)
 	}
